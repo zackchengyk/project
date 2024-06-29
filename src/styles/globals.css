@@ -1,0 +1,18 @@
+* {
+  box-sizing: border-box;
+  margin: 0;
+  padding: 0;
+}
+
+html {
+  /** Overwrite SGDS styling */
+  overflow-y: unset !important;
+  overflow-x: unset !important;
+}
+
+body {
+  min-height: 100vh;
+  /* Better Font Rendering =========== */
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
