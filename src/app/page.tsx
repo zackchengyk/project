@@ -1,16 +1,7 @@
-"use client";
-
-import styled from "styled-components";
-
-const StyledMain = styled.main`
-  display: flex;
-  flex-direction: column;
-  justify-content: space-between;
-  align-items: center;
-  padding: 6rem;
-  min-height: 100vh;
-`;
-
-export default function Home() {
-  return <StyledMain>{"Hello World"}</StyledMain>;
+export default function RootPage() {
+  return (
+    <div style={{ padding: "4rem" }}>
+      <h1>Home</h1>
+    </div>
+  );
 }

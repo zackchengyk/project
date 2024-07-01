@@ -2,7 +2,7 @@
 
 import { useServerInsertedHTML } from "next/navigation";
 import { useState } from "react";
-import { ServerStyleSheet, StyleSheetManager } from "styled-components";
+import { ServerStyleSheet, StyleSheetManager, ThemeProvider } from "styled-components";
 
 /**
  * A client component which collects all the CSS rules in a render, and appropriately injects them into the HTML
