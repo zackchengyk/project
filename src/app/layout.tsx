@@ -1,6 +1,7 @@
 import type { Metadata } from "next";
 import { StyledComponentsRegistry } from "./layout.components";
 
+import "../styles/fonts.css";
 import "../styles/globals.css";
 
 export const metadata: Metadata = {

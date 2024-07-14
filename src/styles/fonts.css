@@ -1,0 +1,83 @@
+@font-face {
+  font-family: "Gelica";
+  font-weight: 800;
+  src: url("/fonts/Gelica-Black.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 800;
+  font-style: italic;
+  src: url("/fonts/Gelica-Black-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 700;
+  src: url("/fonts/Gelica-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 700;
+  font-style: italic;
+  src: url("/fonts/Gelica-Bold-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 600;
+  src: url("/fonts/Gelica-Semi-Bold.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 600;
+  font-style: italic;
+  src: url("/fonts/Gelica-Semi-Bold-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 500;
+  src: url("/fonts/Gelica-Medium.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 500;
+  font-style: italic;
+  src: url("/fonts/Gelica-Medium-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 400;
+  src: url("/fonts/Gelica-Regular.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 400;
+  font-style: italic;
+  src: url("/fonts/Gelica-Regular-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 300;
+  src: url("/fonts/Gelica-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 300;
+  font-style: italic;
+  src: url("/fonts/Gelica-Light-Italic.ttf") format("truetype");
+}
+
+@font-face {
+  font-family: "Gelica";
+  font-weight: 200;
+  src: url("/fonts/Gelica-Extra-Light.ttf") format("truetype");
+}
+@font-face {
+  font-family: "Gelica";
+  font-weight: 200;
+  font-style: italic;
+  src: url("/fonts/Gelica-Extra-Light-Italic.ttf") format("truetype");
+}
