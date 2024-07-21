@@ -1,3 +1,15 @@
+@import url("https://fonts.googleapis.com/css2?family=Roboto+Mono:ital,wght@0,100..700;1,100..700&display=swap");
+
+:root {
+  --navbar-height: 4rem;
+
+  --base: #f2eae2;
+  --accent1: #e8d5c1;
+  --accent2: #e8a215;
+  --accent3: #9b291e;
+  --text: #212117;
+}
+
 * {
   box-sizing: border-box;
   margin: 0;
@@ -5,14 +17,38 @@
 }
 
 html {
-  /** Overwrite SGDS styling */
-  overflow-y: unset !important;
-  overflow-x: unset !important;
+  -moz-text-size-adjust: 100%;
+  -webkit-text-size-adjust: 100%;
+  text-size-adjust: 100%;
 }
 
 body {
-  min-height: 100vh;
-  /* Better Font Rendering =========== */
+  height: 100dvh;
+
   -webkit-font-smoothing: antialiased;
   -moz-osx-font-smoothing: grayscale;
+
+  font-family: "Roboto Mono", monospace;
+  font-size: 1rem;
+  line-height: 1.625;
+  color: var(--text);
+  background-color: var(--base);
+}
+
+a,
+a:hover,
+a:focus,
+a:visited,
+a:active {
+  cursor: pointer;
+  color: inherit;
+  text-decoration: underline;
+  text-decoration-color: transparent;
+  transition: text-decoration-color 0.28s ease-in-out;
+}
+
+a:hover,
+a:focus {
+  text-decoration-color: unset;
+  transition: text-decoration-color 0.02s ease-in-out;
 }

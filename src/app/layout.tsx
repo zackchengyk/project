@@ -3,6 +3,8 @@ import { StyledComponentsRegistry } from "./layout.components";
 
 import "../styles/fonts.css";
 import "../styles/globals.css";
+import { Navbar } from "@/components/navbar";
+import { StyledGridDiv, StyledMain } from "./layout.styles";
 
 export const metadata: Metadata = {
   title: "The School That Watched Us Grow",
@@ -19,7 +21,12 @@ export default function RootLayout({ children }: { children: React.ReactNode }) 
   return (
     <html lang="en">
       <body>
-        <StyledComponentsRegistry>{children}</StyledComponentsRegistry>
+        <StyledComponentsRegistry>
+          <StyledGridDiv>
+            <Navbar />
+            <StyledMain>{children}</StyledMain>
+          </StyledGridDiv>
+        </StyledComponentsRegistry>
       </body>
     </html>
   );
